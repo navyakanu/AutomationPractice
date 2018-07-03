@@ -1,0 +1,23 @@
+<suite name ="Test Suite">
+    <test name = "Sample Test">
+        <groups>
+            <run>
+                <include name ="Sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "tests.TestHomePage" />
+        </classes>
+    </test>
+
+    <test name = "Sample Test2">
+        <groups>
+            <run>
+                <include name ="Sanity"/>
+            </run>
+        </groups>
+        <!--<classes>-->
+        <!--<class name = "tests.TestHomePage" />-->
+        <!--</classes>-->
+    </test>
+</suite>
