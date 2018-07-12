@@ -1,30 +1,271 @@
-Starting the test
-Started test
-Starting the test
-Logged in to the application
-Starting the test
-Started test
+Starting test TestNavigateToHomePage
 Starting the test
 Logged in to the application
-Starting the test
-Started test
-Starting the test
-Logged in to the application
-Starting the test
-Started test
+Test Successful TestNavigateToHomePage
+Starting test TestNavigateToHomePage
 Starting the test
 Logged in to the application
-Starting the test
-Started test
-Starting the test
-Started test
-Starting the test
-Started test
-Starting the test
-Started test
-Starting the test
-Started test
-Starting the test
-Started test
-Starting the test
-Started test
+Test Successful TestNavigateToHomePage
+Starting test TestName
+Test Successful TestName
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users?page=2 HTTP/1.1
+ >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users?page=2 HTTP/1.1
+>> Accept: */*
+>> Content-Length: 0
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 12 Jul 2018 04:58:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Set-Cookie: __cfduid=da878569c3eebb76b5696c334b29af99c1531371488; expires=Fri, 12-Jul-19 04:58:08 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"[\r][\n]"
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 4390eedcdee57098-SIN[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 12 Jul 2018 04:58:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< Set-Cookie: __cfduid=da878569c3eebb76b5696c334b29af99c1531371488; expires=Fri, 12-Jul-19 04:58:08 GMT; path=/; domain=.reqres.in; HttpOnly
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+<< Server: cloudflare
+<< CF-RAY: 4390eedcdee57098-SIN
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "dd[\r][\n]"
+ << "[0x1f]"
+ << "[0x8b]"
+ << "[0x8]"
+ << "[0x0]"
+ << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users?page=2 HTTP/1.1
+ >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users?page=2 HTTP/1.1
+>> Accept: */*
+>> Content-Length: 0
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 12 Jul 2018 05:24:36 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Set-Cookie: __cfduid=d889110202f91ae45a4e2962ec6dd89da1531373076; expires=Fri, 12-Jul-19 05:24:36 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"[\r][\n]"
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 4391159d4e18708c-SIN[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 12 Jul 2018 05:24:36 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< Set-Cookie: __cfduid=d889110202f91ae45a4e2962ec6dd89da1531373076; expires=Fri, 12-Jul-19 05:24:36 GMT; path=/; domain=.reqres.in; HttpOnly
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+<< Server: cloudflare
+<< CF-RAY: 4391159d4e18708c-SIN
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "dd[\r][\n]"
+ << "[0x1f]"
+ << "[0x8b]"
+ << "[0x8]"
+ << "[0x0]"
+ << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[0xa4][0xce]OK[0x3]A[0xc][0x5][0xf0][0xef][0x92][0xf3][0xb0]C[0xb7]*2W[0x11][0xbc]x[0x11]o"[0xe5]9MwGv[0xfe][0x90][0xc4][0x16]-[0xfd][0xee]BW([0xac][0xc7]^B^rx[0xbf]#5[0xc]L[0xa1]w[0xd4]X6sX;[0xb2]j[0x98]([0xac][0xfa][0xbf][0xf5][0xfc]Q[\n]"
+ << "7[0x8e][0xb6]0Px;R[0xda][0x9e][0xf3].[0x89][0xda][0xa6] 3[0x5]z[0xdc]39[0x9a]p[0xb9]<[0xd5][0xc9][0xc8][0x11][0xf6]0[0x8][0x5][0x1a][0xcd][0x9a][0x6][0xef]u[0xdd]![0xe3][0xa7][0x16][0x1c][0xb4][0x8b]5[0xfb][0xaf][0xb4]Cd[0xf5][0xf3][0xb4]C2c[0xf1][0x19][0x12][0xab] 'a[0xf5][0xab][0xfe][0xbe][0xfb]l[0x3][0x9d][0xdc][0xdc]~[0xbb]h[0x18]![0x13][0xeb]B[0xf0]\E[0x92]^aP[0xe3]6r[0xc9][0xb5][0x96][0x84][0xbb][0x5][0xe1]U[0x10][0xf9]{!xA[0xae][0xd7][0x0]>[0xd2][0x90]Q[0xe2]X/[0xf5][0xef][0xa7]_[0x0][0x0][0x0][0xff][0xff][0x3][0x0]>[0xae]~<[0xbb][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5357c287
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users?page=2 HTTP/1.1
+ >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users?page=2 HTTP/1.1
+>> Accept: */*
+>> Content-Length: 0
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 12 Jul 2018 05:33:54 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Set-Cookie: __cfduid=d626556b3afa1970895acb3d1846538191531373633; expires=Fri, 12-Jul-19 05:33:53 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"[\r][\n]"
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 4391233c0a6a7086-SIN[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 12 Jul 2018 05:33:54 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< Set-Cookie: __cfduid=d626556b3afa1970895acb3d1846538191531373633; expires=Fri, 12-Jul-19 05:33:53 GMT; path=/; domain=.reqres.in; HttpOnly
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+<< Server: cloudflare
+<< CF-RAY: 4391233c0a6a7086-SIN
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "dd[\r][\n]"
+ << "[0x1f]"
+ << "[0x8b]"
+ << "[0x8]"
+ << "[0x0]"
+ << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[0xa4][0xce]OK[0x3]A[0xc][0x5][0xf0][0xef][0x92][0xf3][0xb0]C[0xb7]*2W[0x11][0xbc]x[0x11]o"[0xe5]9MwGv[0xfe][0x90][0xc4][0x16]-[0xfd][0xee]BW([0xac][0xc7]^B^rx[0xbf]#5[0xc]L[0xa1]w[0xd4]X6sX;[0xb2]j[0x98]([0xac][0xfa][0xbf][0xf5][0xfc]Q[\n]"
+ << "7[0x8e][0xb6]0Px;R[0xda][0x9e][0xf3].[0x89][0xda][0xa6] 3[0x5]z[0xdc]39[0x9a]p[0xb9]<[0xd5][0xc9][0xc8][0x11][0xf6]0[0x8][0x5][0x1a][0xcd][0x9a][0x6][0xef]u[0xdd]![0xe3][0xa7][0x16][0x1c][0xb4][0x8b]5[0xfb][0xaf][0xb4]Cd[0xf5][0xf3][0xb4]C2c[0xf1][0x19][0x12][0xab] 'a[0xf5][0xab][0xfe][0xbe][0xfb]l[0x3][0x9d][0xdc][0xdc]~[0xbb]h[0x18]![0x13][0xeb]B[0xf0]\E[0x92]^aP[0xe3]6r[0xc9][0xb5][0x96][0x84][0xbb][0x5][0xe1]U[0x10][0xf9]{!xA[0xae][0xd7][0x0]>[0xd2][0x90]Q[0xe2]X/[0xf5][0xef][0xa7]_[0x0][0x0][0x0][0xff][0xff][0x3][0x0]>[0xae]~<[0xbb][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@485a3466
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users?page=2 HTTP/1.1
+ >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users?page=2 HTTP/1.1
+>> Accept: */*
+>> Content-Length: 0
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 12 Jul 2018 05:34:24 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Set-Cookie: __cfduid=d37b8a8f79fba786928350a69d733059b1531373664; expires=Fri, 12-Jul-19 05:34:24 GMT; path=/; domain=.reqres.in; HttpOnly[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"[\r][\n]"
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 439123fbc8607098-SIN[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 12 Jul 2018 05:34:24 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< Set-Cookie: __cfduid=d37b8a8f79fba786928350a69d733059b1531373664; expires=Fri, 12-Jul-19 05:34:24 GMT; path=/; domain=.reqres.in; HttpOnly
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+<< Server: cloudflare
+<< CF-RAY: 439123fbc8607098-SIN
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "dd[\r][\n]"
+ << "[0x1f]"
+ << "[0x8b]"
+ << "[0x8]"
+ << "[0x0]"
+ << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[0xa4][0xce]OK[0x3]A[0xc][0x5][0xf0][0xef][0x92][0xf3][0xb0]C[0xb7]*2W[0x11][0xbc]x[0x11]o"[0xe5]9MwGv[0xfe][0x90][0xc4][0x16]-[0xfd][0xee]BW([0xac][0xc7]^B^rx[0xbf]#5[0xc]L[0xa1]w[0xd4]X6sX;[0xb2]j[0x98]([0xac][0xfa][0xbf][0xf5][0xfc]Q[\n]"
+ << "7[0x8e][0xb6]0Px;R[0xda][0x9e][0xf3].[0x89][0xda][0xa6] 3[0x5]z[0xdc]39[0x9a]p[0xb9]<[0xd5][0xc9][0xc8][0x11][0xf6]0[0x8][0x5][0x1a][0xcd][0x9a][0x6][0xef]u[0xdd]![0xe3][0xa7][0x16][0x1c][0xb4][0x8b]5[0xfb][0xaf][0xb4]Cd[0xf5][0xf3][0xb4]C2c[0xf1][0x19][0x12][0xab] 'a[0xf5][0xab][0xfe][0xbe][0xfb]l[0x3][0x9d][0xdc][0xdc]~[0xbb]h[0x18]![0x13][0xeb]B[0xf0]\E[0x92]^aP[0xe3]6r[0xc9][0xb5][0x96][0x84][0xbb][0x5][0xe1]U[0x10][0xf9]{!xA[0xae][0xd7][0x0]>[0xd2][0x90]Q[0xe2]X/[0xf5][0xef][0xa7]_[0x0][0x0][0x0][0xff][0xff][0x3][0x0]>[0xae]~<[0xbb][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@485a3466
+Connection can be kept alive indefinitely

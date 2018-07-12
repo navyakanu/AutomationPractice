@@ -1,6 +1,11 @@
 <suite name ="Test Suite">
+
+    <listeners>
+       <listener class-name="tests.BaseTest"/>
+    </listeners>
+
     <test name = "Sample Test">
-        <groups>
+      <groups>
             <run>
                 <include name ="Sanity"/>
             </run>
@@ -16,8 +21,8 @@
                 <include name ="Sanity"/>
             </run>
         </groups>
-        <!--<classes>-->
-        <!--<class name = "tests.TestHomePage" />-->
-        <!--</classes>-->
+        <classes>
+        <class name = "tests.Test2" />
+        </classes>
     </test>
 </suite>

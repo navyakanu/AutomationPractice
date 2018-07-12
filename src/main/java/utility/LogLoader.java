@@ -16,11 +16,15 @@ public class LogLoader {
 
 
     public static void info(String message){
-      Logger.getLogger(message);
+      Logger.getLogger(LogLoader.class).info(message);
     }
 
     public static void debug(String message){
-        Logger.getLogger(message);
+        Logger.getLogger(LogLoader.class).debug(message);
+    }
+
+    public static void error(String message){
+        Logger.getLogger(LogLoader.class).error(message);
     }
 
 

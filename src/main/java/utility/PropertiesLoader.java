@@ -25,8 +25,8 @@ public class PropertiesLoader {
 
     public static String getPropertyDetails(String s) {
 
-        String p = PropertiesLoader.prop.getProperty(s);
-        return p;
+        String details = PropertiesLoader.prop.getProperty(s);
+        return details;
     }
 
 

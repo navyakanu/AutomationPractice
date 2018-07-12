@@ -13,40 +13,16 @@ public class BrowserFactory extends PropertiesLoader {
 
     public static WebDriver SelectBrowser() throws IOException {
 
-        String browser = PropertiesLoader.getPropertyDetails("browser");
+        String browser = PropertiesLoader.getPropertyDetails("Browser");
 
-
-        switch (1) {
-            case 1:
+        switch (browser){
+            case "chrome":
                 driver = getChromeDriver();
                 break;
-            case 2:
+            case "firefox":
                 driver = getFirefoxDriver();
                 break;
-            default:
-                try {
-                    throw new Exception("Invalid browser name");
-
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-
         }
-
-//
-//        if (browser.equalsIgnoreCase("Chrome"))
-//            driver = getChromeDriver();
-//        else if (browser.equalsIgnoreCase("firefox")) {
-//            driver = getFirefoxDriver();
-//        } else {
-//            try {
-//                throw new Exception("Invalid browser name");
-//
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
         return driver;
     }
 
